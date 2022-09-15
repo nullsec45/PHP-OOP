@@ -13,6 +13,10 @@ class Person{
             echo "Hi $name, my name is $this->name".PHP_EOL;
         }
     }
+
+    function info(){
+        echo "Author :".self::AUTHOR;
+    }
 }
 // Mengakses CONST 
 // CONST tidak dapat diakses menggunakan objectnya.

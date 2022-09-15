@@ -9,3 +9,4 @@ $person->sayHello("Ujang");
 $person2=new Person();
 $person2->name="Fatimah Aznur";
 $person2->sayHello(null);
+$person2->info();
