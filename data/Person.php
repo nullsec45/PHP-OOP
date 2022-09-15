@@ -1,5 +1,7 @@
 <?php
 class Person{
+    const AUTHOR="ramarff";
+
     var string $name;
     var ?string $address;
     var string $country="Indonesia";   
@@ -12,6 +14,11 @@ class Person{
         }
     }
 }
+// Mengakses CONST 
+// CONST tidak dapat diakses menggunakan objectnya.
+// Hanya bisa diakses melalui classnya.
+echo Person::AUTHOR;
+
 class Mobil{
 
 }
