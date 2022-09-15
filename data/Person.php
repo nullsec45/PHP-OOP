@@ -15,6 +15,7 @@ class Person{
     }
 
     function info(){
+        // self digunakan untuk memanggil CONSTANTA di dalam Class
         echo "Author :".self::AUTHOR;
     }
 }
