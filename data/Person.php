@@ -21,7 +21,12 @@ class Person{
 
     function info(){
         // self digunakan untuk memanggil CONSTANTA di dalam Class
-        echo "Author :".self::AUTHOR;
+        echo "Author :".self::AUTHOR.PHP_EOL;
+    }
+
+    function __destruct()
+    {
+        echo "Object person $this->name is destroyed".PHP_EOL;
     }
 }
 // Mengakses CONST 
