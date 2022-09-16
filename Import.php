@@ -1,6 +1,6 @@
 <?php
 require_once "data/Conflict.php";
-require_once "data/Conflict.php";
+require_once "data/Helper.php";
 
 // Walau nama namespacenya berbeda, tidak bisa memanggil class yang sama menggunakan use keyword;
 use Data\Conflict1\Conflict;
