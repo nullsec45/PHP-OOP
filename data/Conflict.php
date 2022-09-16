@@ -5,6 +5,14 @@ namespace Data\Conflict1{
 
     }
 
+    class Makanan{
+
+    }
+
+    class Minuman{
+
+    }
+
 }
 namespace Data\Conflict2{
     class Conflict{
