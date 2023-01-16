@@ -50,13 +50,17 @@ class ParentPerson{
     }
 }
 
-class Person extends ParentPerson
-{
+trait All{
+    // Trait Inheritance
     use SayGoodBye, SayHello, HasName, CanRun{
         // override visibilitynya
-        hello as private;
-        goodBye as private;
+        // hello as private;
+        // goodBye as private;
     }
+}
+class Person extends ParentPerson
+{
+    use All;
 
     public function run(): void
     {
